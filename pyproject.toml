@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "fastapi-users"
+name = "fastapi-users-project"
 version = "0.1.0"
 description = "Learn to use fastapi-users and integrate with other backends"
 authors = ["rifatrakib <Rakib.1508@outlook.com>"]
@@ -10,6 +10,8 @@ readme = "README.md"
 python = "^3.9"
 fastapi = {extras = ["all"], version = "^0.103.2"}
 python-decouple = "^3.8"
+fastapi-users = {extras = ["oauth", "sqlalchemy"], version = "^12.1.2"}
+pydash = "^7.0.6"
 
 [tool.poetry.group.dev.dependencies]
 pre-commit = "^3.4.0"
