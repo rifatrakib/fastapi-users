@@ -45,6 +45,9 @@ class RootConfig(BaseSettings):
 class BaseConfig(RootConfig):
     APP_NAME: str
     MODE: Modes
+    JWT_SECRET: str
+    GOOGLE_OAUTH_CLIENT_ID: str
+    GOOGLE_OAUTH_CLIENT_SECRET: str
 
     # SQL Database Configurations
     POSTGRES_HOST: str
